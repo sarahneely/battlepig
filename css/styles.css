@@ -1,7 +1,7 @@
 /*********HEADER*********/
 .header {
   background-color: #8c8376;
-  height: 80px;
+  height: 95px;
   margin-bottom: 5px;
 }
 
@@ -9,17 +9,18 @@
   font-family: 'Special Elite', cursive;
   color: #c3d9f4;
   float: left;
+  margin-top: 30px;
 }
 
 .babyd {
-  height: 80px;
+  height: 95px;
   margin-left: 20px;
 }
 
-.nav {
+.top_nav {
   color: #c3d9f4 !important;
   font-family: 'Special Elite', cursive;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .nav_pills {
@@ -32,6 +33,7 @@
   font-family: 'Special Elite', cursive;
   text-decoration: none;
   float: left;
+  margin-top: 0px;
 }
 
 /**********COLUMNS**********/
@@ -53,7 +55,7 @@
   height: 580px !important;
 }
 
-img.column_img: hover {
+img: hover {
   background-color: rgba(140, 131, 118, 0.5);
 }
 
