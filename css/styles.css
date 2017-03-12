@@ -1,0 +1,85 @@
+/*********HEADER*********/
+.header {
+  background-color: #8c8376;
+  height: 80px;
+  margin-bottom: 5px;
+}
+
+.logo {
+  font-family: 'Special Elite', cursive;
+  color: #c3d9f4;
+  float: left;
+}
+
+.babyd {
+  height: 80px;
+  margin-left: 20px;
+}
+
+.nav {
+  color: #c3d9f4 !important;
+  font-family: 'Special Elite', cursive;
+  margin-top: 10px;
+}
+
+.nav_pills {
+  color: #d9ccc3 !important;
+  font-size: 15px;
+}
+
+.cart_pills {
+  color: #d9ccc3 !important;
+  font-family: 'Special Elite', cursive;
+  text-decoration: none;
+  float: left;
+}
+
+/**********COLUMNS**********/
+.columns {
+  height: 600px;
+  width: 100%;
+  background-color: #7e98c1;
+}
+.home-columns {
+  height: 580px;
+  width: 31% !important;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.column_img {
+  border: 2px solid #0b030a;
+  width: 480px !important;
+  height: 580px !important;
+}
+
+img.column_img: hover {
+  background-color: rgba(140, 131, 118, 0.5);
+}
+
+/**********ABOUT***********/
+.about {
+  height: 400px;
+  width: 100%;
+  background-color: #d9ccc3;
+  color: #0b030a;
+}
+
+.about_txt {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+}
+
+/**********FOOTER**********/
+
+.footer {
+  height: 200px;
+  width: 100%;
+  background-color: #0b030a;
+  color: #d9ccc3;
+}
+
+.footer_txt {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+}
