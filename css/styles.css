@@ -49,14 +49,31 @@
   margin-left: 20px;
 }
 
+.img--container {
+  height: 580px;
+  width: 480px;
+  cursor: pointer;
+}
+
 .column_img {
+  position: relative;
+  display: inline-block;
   border: 2px solid #0b030a;
   width: 480px !important;
   height: 580px !important;
 }
 
-img: hover {
+.img--overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
   background-color: rgba(140, 131, 118, 0.5);
+  top: 0;
+}
+
+img--container:hover .img--overlay{
+  opacity: 1;
 }
 
 /**********ABOUT***********/
