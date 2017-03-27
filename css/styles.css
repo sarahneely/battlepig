@@ -51,7 +51,6 @@
 
 .img--container {
   height: 580px;
-  width: 480px;
   cursor: pointer;
 }
 
@@ -63,7 +62,7 @@
   height: 580px !important;
 }
 
-.img--overlay {
+/*.img-overlay {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -72,9 +71,9 @@
   top: 0;
 }
 
-img--container:hover .img--overlay{
+.home-columns:hover .img-overlay{
   opacity: 1;
-}
+}*/
 
 /**********ABOUT***********/
 .about {
