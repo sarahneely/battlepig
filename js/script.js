@@ -1,3 +1,3 @@
-$('.column_img').hover(function(){
-  $(this).css("background-color", "gray");
-});
+var picBounce = getElementsByClassName('column_img');
+picBounce.addEventListener('mouseover', function(){
+})

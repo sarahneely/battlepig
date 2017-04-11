@@ -4,10 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/styles.css" type="text/css" />
-  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
-  <link rel="stylesheet" href="css/hover/css/hover-min.css" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Cantata+One|Special+Elite" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Cantata+One|Special+Elite" rel="stylesheet">
   <!-- <link rel="stylesheet" href="fonts/font-awesome.min.css"> -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <title>BattlePig.Com</title>
@@ -15,7 +14,9 @@
 <body>
 
 <!-- HEADER -->
-<section class="header">
+<div class="container-fluid">
+<!-- <section class="header"> -->
+  <div class="row header">
   <div class="col-md-4">
     <h1 class="logo">BattlePig.Com</h1>
     <img src="images/babyd-frame.png" alt="puppy in frame" class="babyd">
@@ -29,41 +30,47 @@
       <li role="presentation"><a href="about.html" class="nav_pills">About / Contact</a></li>
     </ul>
   </div>
+  </div>
+  <div class="row">
   <div class="col-md-2 col-md-offset-6">
     <ul class="nav nav-pills">
       <li role="presentation"><a href="cart.html" class="cart_pills">Cart</a></li>
       <li role="presentation"><a href="login.html" class="cart_pills">Log In/Out</a></li>
     </ul>
   </div>
-</section>
+  </div>
 
 <!--  CONTENT   -->
 
-<section class="columns">
-  <div class="col-md-4 home-columns">
-    <div class="img--container">
-      <img src="images/shirts.jpg" class="img-responsive column_img" alt="">
-      <div class="img-overlay"></div>
+<div class="row">
+  <section class="columns">
+    <div class="col-md-4 home-columns">
+      <div class="img--container">
+        <img src="images/shirts.jpg" class="img-responsive column_img" alt="">
+        <div class="img-overlay"></div>
+      </div>
     </div>
-  </div>
-  <div class="col-md-4 home-columns">
-    <div class="img--container">
-      <img src="images/stickers.jpg" class="img-responsive column_img" alt="">
-      <div class="img-overlay"></div>
+    <div class="col-md-4 home-columns">
+      <div class="img--container">
+        <img src="images/stickers.jpg" class="img-responsive column_img" alt="">
+        <div class="img-overlay"></div>
+      </div>
     </div>
-  </div>
-  <div class="col-md-4 home-columns">
-    <img src="images/artwork.jpg" class="img-responsive column_img" alt="">
-  </div>
-</section>
+    <div class="col-md-4 home-columns">
+      <img src="images/artwork.jpg" class="img-responsive column_img" alt="">
+    </div>
+  </section>
+</div>
 
 <!--   ABOUT   -->
 
 <section class="about">
+  <div class="row">
   <div class="col-md-12">
     <h2 class="about_txt">About</h2>
   </div>
-  <div class="col-md-12">
+  </div>
+  <div class="row">
     <div class="col-md-4">
       <img src="images/artist1.jpg" alt="Artist One" class="img-thumbnail">
     </div>
@@ -75,23 +82,25 @@
     <div class="col-md-4">
       <img src="images/artist2.jpg" alt="Artist Two" class="img-thumbnail">
     </div>
+  </div>
 </section>
+
 
 
 
 <!--   FOOTER   -->
 
 <section class="footer">
+  <div class="row">
   <div class="col-md-12">
     <h2 class="footer_txt">Contact</h2>
   </div>
+  </div>
 </section>
-
+</div>
 <!--  Javascript  -->
-<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
-<script src="js/bootstrap.min.js"> </script>
-<script src="js/script.js" type="text/javascript">
-
-</script>
+<script src="js/jquery-3.2.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js" type="text/javascript"></script>
 </body>
 </html>
